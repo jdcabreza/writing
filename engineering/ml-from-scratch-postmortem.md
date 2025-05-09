@@ -1,8 +1,8 @@
 ---
-title: 
+title: "Building ML From Scratch: A Postmortem"
 date_created: 2025-05-08
-date_published:
-date_updated: 
+date_published: 2025-05-09
+date_updated: 2025-05-09
 tags: [machine learning, career, reflection]
 draft: true
 reading_time: 5m
@@ -26,9 +26,7 @@ We ran into issues with data maturity early on, having to coordinate with other 
 
 Another bottleneck we had was infrastructure. We couldn't experiment freely because of a lack of permissions and constant budget constraints. I couldn't even spin up my own cloud bucket without a formal request. It was hard to lean on any managed resources too because we wanted to stay cloud-agnostic. Later architecture decisions (when we were trying to improve our initial system) almost always came down to: "can we even afford this?"
 
-All of these conditions led to slow experimentation. We had gotten our first feature out the door and had a lot of momentum and motivation, but we'd constantly get blocked by things outside of our control and it eventually faded away.
-
-All of this led to slow, painful iteration. By the time we got our first feature out the door, we had a lot of momentum. We eventually constantly got blocked by things outside of our control and it eventually dwindled.
+All of these led to slow iteration. We had gotten our first feature out the door and had a lot of momentum and motivation, but we'd constantly get blocked by things outside of our control and it eventually faded away.
 
 **Lessons**:
 - You can't "just start doing ML" without the lifeblood of ML: (clean) data.
@@ -50,11 +48,9 @@ It was messy and definitely not the most elegant solution, but it worked end-to-
 
 ## 3. Know What Impact Looks Like (or else...)
 
-It's too easy to assume that a project will naturally lead to impact. This is especially true when leadership is excited about it and when there's a grand vision. Unfortunately, those aren't enough. Without any concrete strategy, a compelling idea is just a nice story.
+It's too easy to assume that a project will naturally lead to impact. This is especially true when leadership is excited about it and when there's a grand vision. Unfortunately, those aren't enough. Without any concrete strategy, any grandiose vision just becomes a nice story.
 
-Despite strong support and a great vision for ML, we didn't have any clear way to measure success. Business metrics were hard to access and there was no definition of "impact". Our initial objective was to "predict XYZ", and we did. 
-
-We shipped our first feature and it was great. Users were using it, with some even advocating for it. But, we never know if the business actually improved. We shipped our ML system and it was the same --- no one knew if it was successful or not. It was hard to know what to do next as a result and the project ended up just silently stalling until... nothing.
+Despite strong support and a great vision for ML at the time, we didn't have any clear way to measure success. Business metrics were hard to access and there was no definition of "impact". Our initial objective was to "predict XYZ", and that's what we did. We shipped our first feature and it was great. Users were using it, with some even advocating for it. But, we never know if the business actually improved. We shipped our ML system and it was the same --- no one knew if it was successful or not. It was hard to know what to do next as a result and the project ended up just silently stalling until... nothing.
 
 **Lessons**:
 - Define impact before you write a single line of code. No impact = dead project.
@@ -64,7 +60,7 @@ We shipped our first feature and it was great. Users were using it, with some ev
 
 ## 4. No One's Coming to Save You
 
-When things start going sideways, it's tempting to wait for someone to step in and just... do something. The reality is that help is unlikely to come when you need it the most. If you're hoping a new hire will solve things, well, need weeks or months to ramp up. If you're hoping someone will take ownership, well, chances are they're already stretched thin themslves.
+When things start going sideways, it's tempting to wait for someone to step in and just... do something. The reality is that help is unlikely to come when you need it the most. If you're hoping a new hire will solve things, well, they'll need weeks (or months) to ramp up. If you're hoping someone will take ownership, well, chances are they're already stretched thin themslves.
 
 Our team had to wear every hat just to ship. We coordinated with other teams just to progress, getting the data and infrastructure we needed. We became our own product managers, figuring out what to do next based on what we knew at the time. We ran our own sprints and retros. We essentially just rolled up our sleeves and said "fine, let's do it ourselves."
 
