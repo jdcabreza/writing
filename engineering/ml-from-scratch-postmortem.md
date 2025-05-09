@@ -75,4 +75,4 @@ Building ML from scratch in an environment that's less-than-ideal is... hard. Yo
 
 I'm sure that I grew to have better technical skills, patience, and a clearer sense of what ML entails in an organization. Technical lessons were straightforward, but the more interpersonal and organizational ones were much, much harder.
 
-At the end of the day, some problems just aren't yours to solve, I guess. You can't control the hand that you were dealt, you can only ever control what you do with it.
+At the end of the day, some problems just aren't yours to solve, I guess (especially as an engineer without much influence). You can't control the hand that you were dealt, you can only ever control what you do with it.
