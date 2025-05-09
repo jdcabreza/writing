@@ -14,4 +14,4 @@ This is meant for me as a way to process what I learn and just to think more cle
 
 ## 🧠 Recent Writing
 
-- Coming soon --- stay tuned!
+- [Building ML from Scratch: A Postmortem](engineering/ml-from-scratch-postmortem.md)
