@@ -5,7 +5,7 @@ date_published: 2025-05-09
 date_updated: 2025-05-09
 tags: [machine learning, career, reflection]
 draft: true
-reading_time: 5m
+reading_time: 10m
 ---
 
 # Building ML From Scratch: A Postmortem
@@ -50,7 +50,7 @@ It was messy and definitely not the most elegant solution, but it worked end-to-
 
 It's too easy to assume that a project will naturally lead to impact. This is especially true when leadership is excited about it and when there's a grand vision. Unfortunately, those aren't enough. Without any concrete strategy, any grandiose vision just becomes a nice story.
 
-Despite strong support and a great vision for ML at the time, we didn't have any clear way to measure success. Business metrics were hard to access and there was no definition of "impact". Our initial objective was to "predict XYZ", and that's what we did. We shipped our first feature and it was great. Users were using it, with some even advocating for it. But, we never know if the business actually improved. We shipped our ML system and it was the same --- no one knew if it was successful or not. It was hard to know what to do next as a result and the project ended up just silently stalling until... nothing.
+Despite strong support and a great vision for ML at the time, we didn't have any clear way to measure success. Business metrics were hard to access and there was no definition of "impact". Our initial objective was to "predict XYZ", and that's what we did. We shipped our first feature and it was great. Users were using it, with some even advocating for it. But, we never knew if the business actually improved. We shipped our ML system and it was the same --- no one knew if it was successful or not. It was hard to know what to do next as a result and the project ended up just silently stalling until... nothing.
 
 **Lessons**:
 - Define impact before you write a single line of code. No impact = dead project.
@@ -62,7 +62,7 @@ Despite strong support and a great vision for ML at the time, we didn't have any
 
 When things start going sideways, it's tempting to wait for someone to step in and just... do something. The reality is that help is unlikely to come when you need it the most. If you're hoping a new hire will solve things, well, they'll need weeks (or months) to ramp up. If you're hoping someone will take ownership, well, chances are they're already stretched thin themslves.
 
-Our team had to wear every hat just to ship. We coordinated with other teams just to progress, getting the data and infrastructure we needed. We became our own product managers, figuring out what to do next based on what we knew at the time. We ran our own sprints and retros. We essentially just rolled up our sleeves and said "fine, let's do it ourselves."
+Our team had to wear every hat just to ship. We coordinated with other teams to lay down the foundations, getting the data and infrastructure we needed. We became our own product managers, figuring out what to do next based on what we knew at the time. We ran our own sprints and retros. We essentially just rolled up our sleeves and said "fine, let's do it ourselves."
 
 **Lessons**:
 - Don't assume support is coming (as bad as it sounds).
@@ -71,8 +71,8 @@ Our team had to wear every hat just to ship. We coordinated with other teams jus
 
 ## At the End of the Day...
 
-Building ML from scratch in an environment that's less-than-ideal is... hard. You can either ship smething valuable and create real momentum or you work hard only to hit a wall and crash.
+Building ML from scratch in an environment that's less-than-ideal is... hard. You can either ship smething valuable and create real momentum or you work hard only to eventually hit a brick wall.
 
 I'm sure that I grew to have better technical skills, patience, and a clearer sense of what ML entails in an organization. Technical lessons were straightforward, but the more interpersonal and organizational ones were much, much harder.
 
-At the end of the day, some problems just aren't yours to solve. You can't control the hand that you were dealt, but you can control how you react to and use it.
+At the end of the day, some problems just aren't yours to solve, I guess. You can't control the hand that you were dealt, you can only ever control what you do with it.
