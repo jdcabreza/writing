@@ -14,4 +14,5 @@ This is meant for me as a way to process what I learn and just to think more cle
 
 ## 🧠 Recent Writing
 
+- [Some Code-Level Lessons Over the Years](engineering/engg-lessons.md)
 - [Building ML from Scratch: A Postmortem](engineering/ml-from-scratch-postmortem.md)

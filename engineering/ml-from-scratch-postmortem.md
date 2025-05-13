@@ -1,11 +1,6 @@
 ---
 title: "Building ML From Scratch: A Postmortem"
 date_created: 2025-05-08
-date_published: 2025-05-09
-date_updated: 2025-05-09
-tags: [machine learning, career, reflection]
-draft: true
-reading_time: 10m
 ---
 
 # Building ML From Scratch: A Postmortem
